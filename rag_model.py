@@ -19,7 +19,7 @@ class RAGSystem:
         self.faiss_index.add(np.array(chunk_embeddings))
         self.chunks = chunks
     
-    def answer_query(self, query: str, top_k: int = 3) -> str:
+    def answer_query(self, query: str, top_k: int = 5) -> str:
         """Answer question using RAG pipeline"""
         if not self.faiss_index:
             raise ValueError("Index not built. Load a PDF first.")

@@ -67,9 +67,9 @@ The application will be available at `http://localhost:8501`
 
 ## Usage
 
-1. Open the application in your browser
+1. Open the application in your browser(this make take a while)
 2. Upload a PDF document
-3. Wait for the document to process (this may take a few moments)
+3. Wait for the document to process 
 4. Enter your question in the text box
 5. View the generated answer
 
@@ -87,7 +87,7 @@ simple_rag_app/
 
 ## Configuration
 
-The application uses default settings, but you can configure:
+The application uses default settings, but one can configure:
 
 - Chunk size for text splitting (in `pdf_processor.py`)
 - Number of retrieved chunks (in `rag_model.py`)
