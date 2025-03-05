@@ -131,7 +131,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [✅ ] Basic PDF processing
 - [✅ ] RAG implementation
 - [✅ ] Streamlit interface
-- [x] Add support for multiple file formats
-- [x] Implement document summarization
-- [x] Add user authentication
-- [x] Create API endpoint for integration
+- [.] Add support for multiple file formats
+- [.] Implement document summarization
+- [.] Add user authentication
+- [.] Create API endpoint for integration
